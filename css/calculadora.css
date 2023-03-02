@@ -1,0 +1,75 @@
+
+body{
+  background-image: url("img/Design\ sem\ nome\ \(3\).png") ;
+  background-repeat: no-repeat;
+
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  
+  .display {
+    grid-column: 1 / span 4;
+    height: 50px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    font-size: 1.2em;
+  }
+  
+  .btn {
+    background-color: #6db06f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .sair{ 
+    background-color: #d27171;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+
+  }
+
+  .sair:hover{
+    background-color: #ac3f3f;
+  }
+
+  .sobre{ 
+    background-color: #71abd2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  .sobre:hover{
+    background-color: rgb(63, 72, 172);
+  }
